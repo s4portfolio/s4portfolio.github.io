@@ -1,4 +1,3 @@
-# Сергей Миронец
-## *s4xack*
-
-- [1.Small Lending](SmallLending/index.html)
+# Сергей Миронец [*s4xack*]
+## Работы:
+1. [Small Lending(No Adaptive)](SmallLending/index.html)
