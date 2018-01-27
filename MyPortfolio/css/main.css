@@ -1,0 +1,29 @@
+@import url("fonts.css");
+@import url("page-header.css");
+@import url("site-nav.css");
+
+body {
+	margin: 0;
+	letter-spacing: 0.12em;
+}
+
+p {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+.container {
+	width: 940px;
+	padding: 0 20px;
+	margin: 0 auto;
+
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}

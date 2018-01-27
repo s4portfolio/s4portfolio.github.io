@@ -1,0 +1,125 @@
+.page-header {
+	height: 100vh;
+	background: #21251d url("../img/header-bg.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+
+	color: #fff;
+
+	text-transform: uppercase;
+
+	-webkit-box-shadow: inset 0 100px 500px #000;
+	box-shadow: inset 0 100px 500px #000;
+
+	position: relative;
+}
+
+.page-header__top-line {
+	font-family: "MuseoSans", sans-serif;
+	padding-top: 35px;
+}
+
+.page-header__logo {
+	float: left;
+
+	font-size: 17px;
+	line-height: 48px;
+	font-weight: bold;
+}
+
+.page-header__light-text {
+	font-weight: 100;
+}
+
+.page-header__nav {
+	margin-left: 177px;
+}
+
+.page-header__email {
+	float: right;
+}
+
+.page-header__link {
+	color: #fff;
+
+	text-transform: none;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 48px;
+
+	position: relative;
+}
+
+.page-header__link::after {
+	position: absolute;
+	content: "";
+
+	background: #fff;
+	background: rgba(255, 255, 255, 0.48);
+	height: 1px;
+	width: 100%;
+
+	bottom: -5px;
+	left: 0;
+}
+
+.page-header__link:hover::after {
+	opacity: 0;
+	bottom: -20px;
+	transition: all .3s;
+}
+
+.page-header__link:active {
+	opacity: 0.4;
+}
+
+.page-header__title {
+	margin-top: 35vh;
+
+	text-align: center;
+	font-family: "Natasha", sans-serif;
+	font-size: 49px;
+	line-height: 55px;
+}
+
+.page-header__add-title {
+	display: block;
+
+	font-family: "MuseoSans", sans-serif;
+	font-weight: 100;
+	font-size: 29px;
+}
+
+.page-header__down-btn {
+	display: block;
+
+	font-family: "Icons";
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+
+	width: 38px;
+	padding: 10px 0;
+	padding-left: 2px;
+
+	text-align: center;
+
+	border: #fff solid 1px;
+	border-radius: 50%;
+
+	position: absolute;
+	bottom: 5vh;
+	left: 50%;
+	margin-left: -20px;
+
+	cursor: pointer;
+}
+
+.page-header__down-btn:hover {
+	background: rgba(255, 255, 255, .15);
+	transition: .2s;
+}
+
+.page-header__down-btn:active {
+	opacity: .4;
+}
