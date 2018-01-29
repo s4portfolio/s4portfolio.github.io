@@ -1,6 +1,13 @@
 @import url("fonts.css");
 @import url("page-header.css");
 @import url("site-nav.css");
+@import url("page-main.css");
+@import url("background.css");
+@import url("merits.css");
+@import url("contacts.css");
+@import url("skills.css");
+@import url("works.css");
+@import url("page-footer.css");
 
 body {
 	margin: 0;

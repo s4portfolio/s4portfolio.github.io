@@ -1,0 +1,14 @@
+.page-footer {
+	margin-top: 100px;
+	font-family: "MuseoSans", sans-serif;
+	padding-bottom: 90px;
+}
+
+.page-footer__text {
+	color: #22241b;
+	font-size: 11px;
+	line-height: 55px;
+	font-weight: 300;
+	text-transform: uppercase;
+	opacity: .66;
+}

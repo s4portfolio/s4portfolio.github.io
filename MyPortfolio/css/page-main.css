@@ -1,0 +1,35 @@
+.page-main {
+	font-family: "MuseoSans", sans-serif;
+	color: #22241b;
+}
+
+.page-main__section {
+	margin-top: 75px;
+}
+
+.page-main__header {
+	font-family: "Natasha", sans-serif;
+	font-size: 37px;
+	line-height: 55px;
+	text-transform: uppercase;
+
+	margin-bottom: 50px;
+}
+
+.page-main__title {
+	font-size: 22px;
+	line-height: 55px;
+	text-transform: uppercase;
+
+	opacity: .66;
+}
+
+.page-main__part {
+	width: 460px;
+	float: left;
+	margin-right: 20px;
+}
+
+.page-main__part:last-child {
+	margin-right: 0;
+}
