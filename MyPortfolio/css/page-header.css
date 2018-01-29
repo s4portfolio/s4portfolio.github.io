@@ -66,7 +66,8 @@
 .page-header__link:hover::after {
 	opacity: 0;
 	bottom: -20px;
-	transition: all .3s;
+	transition: all .4s;
+	
 }
 
 .page-header__link:active {
