@@ -1,0 +1,56 @@
+@media (max-width: 740px) {
+	.container{
+		padding: 0;
+		width: 96%;
+		padding: 0 2%;
+	}
+	.page-header__nav {
+		display: none;
+	}
+	.page-header__logo {
+		float: none;
+		text-align: center;
+	}
+	.page-header__title {
+		margin-top: 20vh;
+	}
+	.merits__item {
+		width: 100%;
+		text-align: left;
+	}
+
+	.merits__number {
+		display: inline-block;
+		text-align: center;
+	}
+
+	.merits__text {
+		display: inline-block;
+		font-size: 15px;
+		margin-left: 40px;
+		text-transform: none;
+	}
+	.skills__list {
+		margin-left: 40px;
+	}
+
+	.skills__item {
+		width: 100%;
+	}
+
+	.contacts__add-information {
+		display: none;
+	}
+	.contacts__links {
+		margin-left: 40px;
+	}
+
+	.works__item {
+		float: none;
+		margin: 15px;
+		margin-left: 50px;
+		width: 300px;
+	}
+
+	
+}

@@ -1,11 +1,14 @@
 .works {
-
+	
 }
 
 .works__item {
 	float: left;
+	width: 300px;
 
 	position: relative;
+
+	margin: 6.6px;
 }
 
 .works__overlay {
@@ -29,9 +32,6 @@
 	transition: all .4s;
 }
 
-.works__item:nth-child(3) {
-	margin: 0 20px;
-}
 
 .works__title {
 	font-size: 15px;
