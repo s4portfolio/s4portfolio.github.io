@@ -47,8 +47,7 @@
 
 	.works__item {
 		float: none;
-		margin: 15px;
-		margin-left: 15px;
+		margin: 15px auto;
 		width: 300px;
 	}
 
